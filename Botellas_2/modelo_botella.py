@@ -1,3 +1,5 @@
+#Clase Padre Botella
+
 class Botella:
     def __init__(self, marca, capacidad, tapa):
         self.marca = marca
@@ -16,5 +18,6 @@ class Botella:
     def imprimir_info(self):
         #Metodo que imprime la informacion de los atributos
         print(f"La marca es: {self.marca}")
-        print(f"El tipo de tapa es: {self.tapa}")
         print(f"La capacidad de la botella es: {self.capacidad}")
+        print(f"El tipo de tapa es: {self.tapa}")
+        
